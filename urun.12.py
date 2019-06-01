@@ -31,7 +31,7 @@ for ln in lines:
     if len(sayfalar) > 0:
         sayfa_sayisi = int(sayfalar[-1][2])
 
-        print('sayfa sayısı: ' + str(sayfa_sayisi))
+        print('sayfa sayisi: ' + str(sayfa_sayisi))
         sayfa = 1        
 
         for x in range(sayfa_sayisi):
