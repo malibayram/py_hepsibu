@@ -84,4 +84,4 @@ for ln in lines:
 
 with open("output_41.txt", "w") as txt_file:
     for line in urunler:
-        txt_file.write(" ".join(line) + "\n")
+        txt_file.write(line + "\n")
